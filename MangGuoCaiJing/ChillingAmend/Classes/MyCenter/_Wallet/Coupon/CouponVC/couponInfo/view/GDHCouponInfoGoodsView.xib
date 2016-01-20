@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GDHCouponInfoGoodsView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMW-TW-OUN">
+                    <rect key="frame" x="0.0" y="111" width="320" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="Ide-5Q-VzR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iwi-UZ-AKY">
+                    <rect key="frame" x="106" y="171" width="108" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="rfB-yz-TyW"/>
+                        <constraint firstAttribute="width" constant="108" id="wjb-LI-maZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="核销码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJI-Tz-ko7">
+                    <rect key="frame" x="0.0" y="287" width="320" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="IYw-AF-UUe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VMW-TW-OUN" secondAttribute="trailing" id="2Q7-t7-ZM0"/>
+                <constraint firstItem="VMW-TW-OUN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rjl-Fp-yZJ"/>
+                <constraint firstItem="VMW-TW-OUN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="111" id="bJK-v4-Pig"/>
+                <constraint firstItem="hJI-Tz-ko7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kzV-zw-mgn"/>
+                <constraint firstAttribute="centerX" secondItem="Iwi-UZ-AKY" secondAttribute="centerX" id="p01-47-MTj"/>
+                <constraint firstAttribute="trailing" secondItem="hJI-Tz-ko7" secondAttribute="trailing" id="r8P-zJ-ewg"/>
+                <constraint firstItem="hJI-Tz-ko7" firstAttribute="top" secondItem="Iwi-UZ-AKY" secondAttribute="bottom" constant="8" id="u5c-Z3-Mh3"/>
+                <constraint firstItem="Iwi-UZ-AKY" firstAttribute="top" secondItem="VMW-TW-OUN" secondAttribute="bottom" constant="46" id="yBx-UQ-jdm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="centerImagerView" destination="Iwi-UZ-AKY" id="TSR-E3-Txp"/>
+                <outlet property="goodsTitlelabel" destination="VMW-TW-OUN" id="fOE-Gs-Rmr"/>
+                <outlet property="underLabel" destination="hJI-Tz-ko7" id="X4A-8W-zNL"/>
+            </connections>
+            <point key="canvasLocation" x="415" y="309"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZXADButton">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e1X-I4-Lyo" customClass="CZImageView">
+                    <rect key="frame" x="5" y="4" width="90" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="8DX-8N-gAC"/>
+                        <constraint firstAttribute="width" constant="90" id="P3E-Wg-4W0"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_img_rightMenu_normal" translatesAutoresizingMaskIntoConstraints="NO" id="w5H-Hl-QFM">
+                    <rect key="frame" x="74" y="61" width="21" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="jv2-aQ-pA7"/>
+                        <constraint firstAttribute="height" constant="15" id="v9O-I1-5cH"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wM0-4K-KKC">
+                    <rect key="frame" x="74" y="61" width="21" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Pz7-kK-BIn"/>
+                        <constraint firstAttribute="width" constant="21" id="QNk-KD-EXg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d9s-8U-QA0" customClass="CZImageView">
+                    <rect key="frame" x="5" y="4" width="90" height="72"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="e1X-I4-Lyo" secondAttribute="bottom" constant="4" id="E3U-md-jnS"/>
+                <constraint firstItem="w5H-Hl-QFM" firstAttribute="trailing" secondItem="e1X-I4-Lyo" secondAttribute="trailing" id="IsQ-Jr-h93"/>
+                <constraint firstItem="d9s-8U-QA0" firstAttribute="width" secondItem="e1X-I4-Lyo" secondAttribute="width" id="LKY-Ci-Cxw"/>
+                <constraint firstItem="wM0-4K-KKC" firstAttribute="trailing" secondItem="e1X-I4-Lyo" secondAttribute="trailing" id="U9e-KZ-IWH"/>
+                <constraint firstItem="d9s-8U-QA0" firstAttribute="centerX" secondItem="e1X-I4-Lyo" secondAttribute="centerX" id="aJB-0A-dQ4"/>
+                <constraint firstItem="w5H-Hl-QFM" firstAttribute="bottom" secondItem="e1X-I4-Lyo" secondAttribute="bottom" id="bQh-tb-Pg0"/>
+                <constraint firstItem="wM0-4K-KKC" firstAttribute="bottom" secondItem="e1X-I4-Lyo" secondAttribute="bottom" id="f9s-IG-ZeK"/>
+                <constraint firstItem="d9s-8U-QA0" firstAttribute="height" secondItem="e1X-I4-Lyo" secondAttribute="height" id="fgJ-Nm-9zP"/>
+                <constraint firstItem="d9s-8U-QA0" firstAttribute="centerY" secondItem="e1X-I4-Lyo" secondAttribute="centerY" id="jsD-yo-fDI"/>
+                <constraint firstItem="e1X-I4-Lyo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="qXQ-CQ-ztW"/>
+                <constraint firstItem="e1X-I4-Lyo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="s2n-Zl-XmR"/>
+                <constraint firstAttribute="trailing" secondItem="e1X-I4-Lyo" secondAttribute="trailing" constant="5" id="yxg-Ft-0sO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="backgroundImageView" destination="e1X-I4-Lyo" id="bJo-7k-xrk"/>
+                <outlet property="maskImageView" destination="d9s-8U-QA0" id="6uv-pm-dDF"/>
+                <outlet property="numberBackgroundView" destination="w5H-Hl-QFM" id="lU5-QJ-IXi"/>
+                <outlet property="numberLabel" destination="wM0-4K-KKC" id="vrh-3j-LyS"/>
+            </connections>
+            <point key="canvasLocation" x="355" y="300"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="video_img_rightMenu_normal" width="21" height="15"/>
+    </resources>
+</document>

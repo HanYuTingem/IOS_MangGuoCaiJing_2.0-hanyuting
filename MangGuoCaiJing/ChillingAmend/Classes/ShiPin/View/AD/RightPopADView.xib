@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9531"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RightPopADView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="iN0-l3-epB" customClass="RightPopADView">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCr-v3-zqT">
+                    <rect key="frame" x="0.0" y="0.0" width="110" height="320"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="yHB-xm-Vka"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R5Y-bD-auI">
+                    <rect key="frame" x="110" y="0.0" width="157" height="320"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYb-ms-Tnj" userLabel="View(分割线)">
+                    <rect key="frame" x="110" y="0.0" width="1" height="320"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="eei-06-QFc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="R5Y-bD-auI" firstAttribute="leading" secondItem="nCr-v3-zqT" secondAttribute="trailing" id="8KQ-a1-0GS"/>
+                <constraint firstItem="nCr-v3-zqT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UDc-XP-4PT"/>
+                <constraint firstAttribute="bottom" secondItem="nCr-v3-zqT" secondAttribute="bottom" id="Wrd-fE-Q5K"/>
+                <constraint firstAttribute="trailing" secondItem="R5Y-bD-auI" secondAttribute="trailing" id="dCL-R4-oat"/>
+                <constraint firstItem="R5Y-bD-auI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gER-sG-C7D"/>
+                <constraint firstItem="wYb-ms-Tnj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="j4k-HO-zFa"/>
+                <constraint firstItem="nCr-v3-zqT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sb7-9n-d3G"/>
+                <constraint firstAttribute="bottom" secondItem="R5Y-bD-auI" secondAttribute="bottom" id="v40-81-cI5"/>
+                <constraint firstAttribute="bottom" secondItem="wYb-ms-Tnj" secondAttribute="bottom" id="wbt-Qr-iat"/>
+                <constraint firstItem="wYb-ms-Tnj" firstAttribute="leading" secondItem="nCr-v3-zqT" secondAttribute="trailing" id="xaV-Y6-96y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="grabBackgroundView" destination="R5Y-bD-auI" id="r6T-aw-grR"/>
+                <outlet property="placeHolderView" destination="nCr-v3-zqT" id="0RG-r7-PCq"/>
+            </connections>
+            <point key="canvasLocation" x="333.5" y="323"/>
+        </view>
+    </objects>
+</document>
