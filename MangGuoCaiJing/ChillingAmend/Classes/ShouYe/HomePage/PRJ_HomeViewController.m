@@ -507,6 +507,7 @@
             NSString *activityId = model.activityId;
             detailVC.imageUrl = [NSString stringWithFormat:@"%@%@",model.activityUrl,model.shareUrl];
             detailVC.urlStr = [NSString stringWithFormat:@"%@&product_id=%@&user_name=%@&user_id=%@",model.activityUrl,LOGOAction,userName,userId];
+            detailVC.shareUrl = model.shareUrl;
             detailVC.shareContent = model.activitySharecontent;
             detailVC.shareTitle = model.activityName;
             detailVC.actionId = activityId;

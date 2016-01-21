@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "dd49e865-eaef-42c2-bc25-3ebdad8ada13++608",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E5CCE87DF0B896507327EE70369DC90EDFEFB21C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "dd49e865-eaef-42c2-bc25-3ebdad8ada13++608" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "dd49e865-eaef-42c2-bc25-3ebdad8ada13++608" : 0
+    "dd49e865-eaef-42c2-bc25-3ebdad8ada13++608" : 0,
+    "E5CCE87DF0B896507327EE70369DC90EDFEFB21C" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9EC4B778-6B2B-484F-B2FD-F046C264F865",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "dd49e865-eaef-42c2-bc25-3ebdad8ada13++608" : "IOS_MangGuoCaiJing_2.0\/"
+    "dd49e865-eaef-42c2-bc25-3ebdad8ada13++608" : "IOS_MangGuoCaiJing_2.0\/",
+    "E5CCE87DF0B896507327EE70369DC90EDFEFB21C" : "IOS_MangGuoCaiJing_2.0%20hanyuting\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "MangGuoCaiJing",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MangGuoCaiJing\/MangGuoCaiJing.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HanYuTingem\/IOS_MangGuoCaiJing_2.0-hanyuting.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5CCE87DF0B896507327EE70369DC90EDFEFB21C"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.10.83\/sino",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",

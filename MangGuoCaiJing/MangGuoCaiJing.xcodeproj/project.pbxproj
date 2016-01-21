@@ -15814,7 +15814,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sino.MangGuoCaiJing;
 				PRODUCT_NAME = MangGuoCaiJing;
-				PROVISIONING_PROFILE = "4aec932e-6c85-4857-8b29-22a34bc63404";
+				PROVISIONING_PROFILE = "f8625a2d-f65e-4c7c-ad92-a4732c4350e9";
 				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Debug;
@@ -15924,7 +15924,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sino.MangGuoCaiJing;
 				PRODUCT_NAME = MangGuoCaiJing;
-				PROVISIONING_PROFILE = "4aec932e-6c85-4857-8b29-22a34bc63404";
+				PROVISIONING_PROFILE = "f8625a2d-f65e-4c7c-ad92-a4732c4350e9";
 				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Release;

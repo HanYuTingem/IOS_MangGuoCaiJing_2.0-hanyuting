@@ -82,7 +82,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    if ([self.totalNumber isEqualToString:@"0"]) {
+    if ([self.totalMoney floatValue] == 0) {
         [self showNoJiaoziView];
     }else{
         [self showBaoJiaoziList];        

@@ -18,4 +18,5 @@
 @property (nonatomic, copy) NSString *actionId;//活动id
 @property (nonatomic, copy) NSString *type;
 @property (nonatomic, copy) NSString *imageUrl;
+@property (nonatomic, copy) NSString *shareUrl;
 @end
