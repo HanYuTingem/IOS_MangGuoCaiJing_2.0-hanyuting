@@ -339,12 +339,13 @@
 //    }
     
     if (106 == _btnTag) { // 密码修改成功跳转登录界面
+        [SaveMessage clearJava];
+        [SaveMessage clearPHP];
         [kkUserInfo clearInfo];
         [BSaveMessage clear];
-        LoginViewController *login = [[LoginViewController alloc] init];
-        login.viewControllerIndex = 5;
-        [self.navigationController pushViewController:login animated:YES];
-        [self removeFromParentViewController];
+        
+        [self.navigationController popToRootViewControllerAnimated:YES];
+        [self.appDelegate.homeTabBarController.homeTabBar onHomePageButtonClicked:nil];
     } else {
         [self.navigationController popViewControllerAnimated:YES];
         // 设置单利 保存数据 模型 NSUserDefaults

@@ -20,8 +20,8 @@
 
 ////测试地址
 //财经 线上地址
-//#define CHONG_url @"http://mgcj.sinosns.cn/app/"
-//#define img_url @"http://mgcj.sinosns.cn/"
+#define CHONG_url @"http://mgcj.sinosns.cn/app/"
+#define img_url @"http://mgcj.sinosns.cn/"
 
 #define GAME_URL     @"http://game.sinosns.cn"
 #define activity_url @"http://mgcj.sinosns.cn/"
@@ -31,8 +31,8 @@
 #define imageViewUrl @"http://mall.sinosns.cn/"
 
 
-#define CHONG_url @"http://192.168.10.11:2043/app/"
-#define img_url @"http://192.168.10.11:2043/"
+//#define CHONG_url @"http://192.168.10.11:2043/app/"
+//#define img_url @"http://192.168.10.11:2043/"
 //#define SHANGCHENG_url @"http://192.168.10.11:8013/app_v1.3.0/?"
 //#define imageViewUrl @"http://192.168.10.11:8013/"
 //商城测试地址

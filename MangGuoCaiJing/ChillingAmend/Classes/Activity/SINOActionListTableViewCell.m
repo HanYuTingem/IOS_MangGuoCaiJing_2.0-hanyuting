@@ -37,7 +37,7 @@
     styleLayer.path = shadowPath.CGPath;
     self.bgView.layer.mask = styleLayer;
     UIImageView *imageV = [[UIImageView alloc]initWithFrame:CGRectMake(self.bgView.frame.size.width-36, 0, 36, 36)];
-    imageV.image = [UIImage imageNamed:@"圆角矩形 412 拷贝 3.png"];
+    imageV.image = [UIImage imageNamed:@"ActionImage6"];
     [self.bgView addSubview:imageV];
     [self addSubview:self.bgView];
     self.bgView.hidden = YES;

@@ -12,11 +12,11 @@
 
 /*正式*/
 //php
-//#define ADDRESSPHP @"http://mgcj.sinosns.cn/app/"
-#define ADDRESSPHP @"http://192.168.10.11:2043/app/"
+#define ADDRESSPHP @"http://mgcj.sinosns.cn/app/"
+//#define ADDRESSPHP @"http://192.168.10.11:2043/app/"
 //java
-//#define ADDRESS @"http://api.ucenter.sinosns.cn/"
-#define ADDRESS @"http://192.168.10.86:8081/sinoCenter/"
+#define ADDRESS @"http://api.ucenter.sinosns.cn/"
+//#define ADDRESS @"http://192.168.10.86:8081/sinoCenter/"
 
 ///*测试*/
 ////php

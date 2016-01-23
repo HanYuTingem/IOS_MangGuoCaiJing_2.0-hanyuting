@@ -277,7 +277,8 @@
             
             detailVC.imageUrl = [NSString stringWithFormat:@"%@%@",self.actionListModel.img_urlToList,commomModel.list_url];
             detailVC.urlStr = [NSString stringWithFormat:@"%@?product_id=%@&id=%@&user_name=%@&user_id=%@",self.actionListModel.active_url,LOGOAction,actionId,userName,userId];
-            detailVC.shareUrl = [[NSString stringWithFormat:@"%@?activityId=%@&productId=%@",self.actionListModel.active_url,actionId,LOGOAction] stringByReplacingOccurrencesOfString:@"activiIndex" withString:@"activiShare"];
+//            detailVC.shareUrl = [[NSString stringWithFormat:@"%@?activityId=%@&productId=%@",self.actionListModel.active_url,actionId,LOGOAction] stringByReplacingOccurrencesOfString:@"activiIndex" withString:@"activiShare"];
+            detailVC.shareUrl = [NSString stringWithFormat:@"%@index.php/activity/activiShare?activityId=%@&productId=%@",HttpHead,actionId,LOGOAction];
             detailVC.shareContent = commomModel.share_content;
             detailVC.shareTitle = commomModel.name;
             detailVC.actionId = commomModel.actionId;
